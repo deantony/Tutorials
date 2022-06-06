@@ -4,6 +4,10 @@ Check Version of Python (2.x or 3.x)
 type:
 python -v
 
+determine version of python
+then type:
+ctrl-z then enter
+
 Pip Install Module
 
 if python 3.x:
