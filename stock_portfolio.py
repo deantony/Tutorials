@@ -80,14 +80,7 @@ def portfolio_annualized_return():
     return a
 
 
-#test
-a = input("Stock Name")
-b = input("Stock Ticker")
-c = input("Cost")
-d = input("Shares")
-e = int(input("Year"))
-f = int(input("month"))
-g = int(input("day"))
-add_to_portfolio(a, b, float(c), float(d), datetime.date(e, f, g))
+o = Asset("O Realty", "O", 68, 50, datetime.date(2020, 10, 1), 0)
+portfolio.append(o)
 print(portfolio[0].ticker)
-print(portfolio[0].dividend())
+print(portfolio[0].prelast4)
